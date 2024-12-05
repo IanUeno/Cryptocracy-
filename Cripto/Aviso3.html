@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ocupa toda a altura da tela */
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .message {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05); /* Botão cresce levemente no hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h3>Capitulo 2 - Desvendando Criptografias</h3>
+        Depois de Finalizar o Desafio de Alex Word, nosso Alant recebe uma bela insigna.
+        <br>
+        ele agora é aluno oficial do Conselho, porém ainda há outros desafios a enfrentar...
+    </div>
+    <button class="button" onclick="continuar()">Ir a sala do Reino</button>
+
+    <script>
+        function continuar() {
+            // Substitua "pagina.html" pelo destino desejado.
+            window.location.href = "Pythago1.html";
+        }
+    </script>
+    <div class="music-player">
+        <button id="playPauseBtn" onclick="togglePlayPause()"></button>
+        <audio id="audio" autoplay loop>
+            <source src="01 - Title Theme.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </div>
+    
+    <script>
+       
+        // Selecionar elementos
+        const audio = document.getElementById('audio');
+        const playPauseBtn = document.getElementById('playPauseBtn');
+    
+        // Função para alternar entre Play e Pause
+        function togglePlayPause() {
+            if (audio.paused) {
+                audio.play();
+                playPauseBtn.textContent = 'Pause';
+            } else {
+                audio.pause();
+                playPauseBtn.textContent = 'Play';
+            }
+        }
+    </script>
+</body>
+</html>

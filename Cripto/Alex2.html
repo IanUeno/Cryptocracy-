@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Point and Click</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            position: relative;
+            width: 1000px;
+            height: 600px;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            border: 5px solid black;
+        }
+        .dot {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.4); /* Bolinhas com opacidade */
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .dot:hover {
+            transform: scale(1.2); /* Aumenta o tamanho ao passar o mouse */
+            background-color: rgba(0, 0, 0, 0.8); /* Torna a bolinha mais opaca */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img id="carousel-image" alt="Cenário Interativo" src="Cap1/cenario.png"/>
+            <!-- Bolinhas -->
+            <div class="dot" style="top: 350px; left: 100px;" onclick="acao1()"></div>
+            <div class="dot" style="top: 140px; left: 350px;" onclick="acao2()"></div>
+            <div class="dot" style="top: 280px; left: 150px;" onclick="acao3()"></div>
+            <div class="dot" style="top: 250px; left: 420px;" onclick="acao4()"></div>
+            <div class="dot" style="top: 250px; left: 750px;" onclick="acao5()"></div>
+            <div class="dot" style="top: 350px; left: 800px;" onclick="acao6()"></div>
+            <div class="dot" style="top: 160px; left: 600px;" onclick="acao7()"></div>
+        </div>
+        <div class="text-box" id="carousel-text">
+           <b>Alex Word:</b> Explore meu cafofo! Vamos ver se você consegue decifrar o meu enigma... hahaha!
+        </div>
+    </div>
+
+    <script>
+        // Funções para as ações das bolinhas
+        function acao1() {
+       
+            window.location.href = "Bola1.html";
+        }
+        function acao2() {
+            alert("ALEX WORD: Está com dificuldades? Como esperado, Aí vai uma dica para você...\n(tragada forte)\n cifras também podem ser numeros, observe com atenção.");
+    
+        }
+        function acao3() {
+            
+            window.location.href = "Bola3.html";
+        }
+        function acao4() {
+            alert("ALEX WORD: Não toque nisso, você não tem idade para esse tipo de coisa, seu pai ira me matar!");
+           
+        }
+        function acao5() {
+           
+            window.location.href = "Bola5.html";
+        }
+        function acao6() {
+            
+            window.location.href = "Bola6.html";
+        }
+        function acao7() {
+            alert("ALEX WORD: Meu cofre, uso para guardar minhas coisas preciosas, tire a mão daí por favor.");
+            
+        }
+    </script>
+</body>
+</html>

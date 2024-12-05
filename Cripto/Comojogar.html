@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre o Jogo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin: 0 20px 20px;
+            line-height: 1.6;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .button:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h3>Sobre o Jogo</h3>
+        <p>Bem-vindo ao nosso jogo, um verdadeiro desafio no estilo *point and click*!</p>
+        <p>
+            O jogo combina diálogos envolventes e quebra-cabeças desafiadores, 
+            garantindo uma experiência imersiva e interativa. Explore cenários, 
+            interaja com personagens e resolva enigmas para progredir na história.
+        </p>
+        <p>
+            Use o <strong>mouse</strong> para clicar em objetos e interagir com o ambiente, 
+            e o <strong>teclado</strong> para realizar ações, criptografar e descriptograr enigmas e dialogos.
+        </p>
+        <p>Prepare-se para uma jornada de lógica, estratégia e criatividade!</p>
+    </div>
+    <button class="button" onclick="continuar()">Começar a aventura</button>
+
+    <script>
+        function continuar() {
+            // Substitua "pagina.html" pelo destino desejado.
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>

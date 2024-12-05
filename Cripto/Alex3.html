@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Point and Click</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            position: relative;
+            width: 1000px;
+            height: 600px;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            border: 5px solid black;
+        }
+        .dot {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.4); /* Bolinhas com opacidade */
+            border-radius: 50%;
+            cursor: pointer;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+        .dot:hover {
+            transform: scale(1.2); /* Aumenta o tamanho ao passar o mouse */
+            background-color: rgba(0, 0, 0, 0.8); /* Torna a bolinha mais opaca */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img id="carousel-image" alt="Cenário Interativo" src="Cap1/cenario.png"/>
+            <!-- Bolinhas -->
+      
+            <div class="dot" style="top: 140px; left: 350px;" onclick="acao2()"></div>
+            
+        </div>
+        <div class="text-box" id="carousel-text">
+           <b>Alex Word:</b> Vejo que conseguiu abrir o pergaminho, chega junto Principe Alat...
+        </div>
+    </div>
+
+    <script>
+        // Funções para as ações das bolinhas
+       
+        function acao2() {
+           
+            window.location.href = "Bola2.html";
+        }
+        function acao3() {
+           
+            window.location.href = "Bola3.html";
+        }
+        function acao4() {
+            alert("Bola 4 clicada!");
+            window.location.href = "Bola4.html";
+        }
+        function acao5() {
+           
+            window.location.href = "Puzzle1.html";
+        }
+    
+        function acao7() {
+            alert("Bola 7 clicada!");
+            window.location.href = "Bola7.html";
+        }
+    </script>
+</body>
+</html>

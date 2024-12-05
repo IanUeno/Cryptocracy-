@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 20px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid black;
+            padding: 10px;
+            background-color: white;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+        .text-box {
+            border: 5px solid black;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .buttons input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+        .buttons button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .buttons button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img alt="" height="500" src="Cap1/premio1.png" width="1000"/>
+        </div>
+        <div class="text-box">
+            Você consegue abrir um pequeno compartimento, e dentro dele há uma insígnia com detalhes e o símbolo de César.
+<br><br>
+<b>Alex Word:</b> Tá esperando o quê? Pegue! É sua, rapaz.
+        </div>
+        <div class="buttons">
+            <button onclick="voltar()">Continuar</button>
+        </div>
+    </div>
+    <script>
+        function voltar() {
+                window.location.href = "Parabens2.html";
+        }
+    </script>
+</body>
+</html>

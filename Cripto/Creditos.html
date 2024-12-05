@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            font-size: 20px;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        .button {
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 30px;
+        }
+
+        .button:hover {
+            background-color: #f0f0f0;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <h3>Equipe CC2MA - Sub A</h3>
+        <ul>
+            <li>Filipe Cesar</li>
+            <li>Gabriel Cruz</li>
+            <li>Everton Gustavo</li>
+            <li>Lucas Maues</li>
+            <li>Ian Carlos</li>
+        </ul>
+    </div>
+    <button class="button" onclick="continuar()">Voltar ao início</button>
+
+    <script>
+        function continuar() {
+            // Substitua "pagina.html" pelo destino desejado.
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
