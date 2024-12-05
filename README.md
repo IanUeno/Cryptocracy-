@@ -1,5 +1,12 @@
 # Cryptocracy-
 
+Equipe:
+Filipe Cesar
+Gabriel Cruz 
+Everton Gustavo
+Lucas Maues
+Ian Carlos
+
 Codifique segredos e influencie alianças em um jogo de poder e mistério. 
 
 Identidade do jogo:
