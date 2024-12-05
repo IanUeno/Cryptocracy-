@@ -20,23 +20,19 @@ Inclua músicas de referências para suas trilhas sonoras. Vale procurar em site
 Interface/Controles 
 "Point-and-click"
 
-Dificuldade 
+Dificuldade:
 dificuldade na resolução dos puzzles baseados em criptografia e descriptografia.
 
 Personagem 
 No jogo você é um príncipe determinado a mudar o futuro da sua nação com os conhecimentos de Criptosland. 
 
-Cronograma 
+Definições gerais:
 
-Desenvolvido  
-
-Definições gerais 
 Gênero; Puzzle.
-
 Plataformas; site.
-
 Quantidade de níveis; 2
-
 Público alvo; estudantes de programação / matematica.
-
 Puzzles; 2 criptografía de césar.
+
+1-feedback
+Durante as sessões de teste, observamos que os jogadores enfrentam certa dificuldade na resolução dos puzzles. Para melhorar a experiência e torná-la mais acessível, implementamos uma opção de dicas que pode ser ativada para reduzir o nível de desafio.
