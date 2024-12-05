@@ -1,7 +1,7 @@
 # Cryptocracy-
 
 Equipe:
-Filipe Cesar,
+Filipe Cesar, /n
 Gabriel Cruz,
 Everton Gustavo,
 Lucas Maues,
