@@ -1,11 +1,11 @@
 # Cryptocracy-
 
 Equipe:
-Filipe Cesar, /n
+Filipe Cesar, 
 Gabriel Cruz,
 Everton Gustavo,
 Lucas Maues,
-Ian Carlos
+Ian Carlos.
 
 Codifique segredos e influencie alianças em um jogo de poder e mistério. 
 
